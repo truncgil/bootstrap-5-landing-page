@@ -1,6 +1,3 @@
-Thanks for downloading this template!
-
-Template Name: Therapy
-Template URL: https://bootstrapmade.com/Therapy-bootstrap-app-landing-page-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template Name: Truncgil
+Template URL: https://github.com/truncgil/bootstrap-5-landing-page.git
+Author: Truncgil
