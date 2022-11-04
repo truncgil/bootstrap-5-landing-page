@@ -32,6 +32,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
+
 </head>
 
 <body>
@@ -105,7 +108,7 @@
           </div>
         </div>
       </div>
-
+ 
     </div>
 
     <section class="section">
@@ -144,7 +147,7 @@
               </ul>
               <div class="price-cta">
                 <strong class="price">$9.95/month</strong>
-                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+                <p><a href="#" price="9.95" class="btn btn-white btn-price">Choose Plan</a></p>
               </div>
             </div>
           </div>
@@ -159,7 +162,7 @@
               </ul>
               <div class="price-cta">
                 <strong class="price">$199.95/month</strong>
-                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+                <p><a href="#" price="199.95" class="btn btn-white btn-price">Choose Plan</a></p>
               </div>
             </div>
           </div>
@@ -339,7 +342,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Therapy
           -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="#">Extfo</a>
           </div>
         </div>
       </div>
@@ -357,7 +360,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<script>
+  $(function(){
+    $(".btn-price").on("click", function(){
+      var price = $(this).attr("price");
+      console.log(price);
+      return false;
+    });
+  });
+</script>
 </body>
 
 </html>
